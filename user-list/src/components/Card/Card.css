@@ -1,0 +1,104 @@
+.card-container {
+  width: 450px;
+  height: 225px;
+  background-color: #fafcff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 8px 0px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid transparent;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  border: 1px solid #cdd6eb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info-container {
+  margin: 10px 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  padding: 5px 0;
+  font-size: 26px;
+}
+.card-container .userName {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.user-profile-container img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  padding: 5%;
+}
+
+.tag-container {
+  margin: 10px 15px;
+  color: #6e87dc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 75%;
+  height: 68px;
+  overflow: hidden;
+}
+
+ul li {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  font-weight: 500;
+  border: 1px solid #d3d9ed;
+  border-radius: 14px;
+  padding: 3px 8px;
+  margin: 2px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    width: 90%;
+    margin: 8px auto;
+  }
+
+  h3,
+  h5 {
+    font-size: 1rem;
+  }
+
+  ul li {
+    font-size: 10px;
+  }
+
+  .user-profile-container img {
+    width: 70px;
+    height: 70px;
+  }
+}
