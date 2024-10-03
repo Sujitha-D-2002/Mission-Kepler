@@ -1,11 +1,10 @@
-import Users from '../../constants/userData.js';
 import './Card.css';
 
-export default function Card(){
+export default function Card({users}){
     return(
         <>
-        {Users.map((users,index)=>(
-        <div className="card-container" key={index}>
+        {users.map((users,index)=>(
+        <div className="card-container" key={users.name+'_'+index}>
           <div className="user-profile-container">
             <img src={users.profile} alt="image"></img>
           </div>
