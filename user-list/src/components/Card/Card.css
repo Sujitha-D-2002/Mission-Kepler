@@ -1,5 +1,5 @@
 .card-container {
-  width: 450px;
+  width: 400px;
   height: 225px;
   background-color: #fafcff;
   border-radius: 10px;
@@ -29,7 +29,7 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 700;
   padding: 5px 0;
-  font-size: 26px;
+  font-size: 24px;
 }
 .card-container .userName {
   width: 250px;
@@ -59,7 +59,7 @@ h4 {
 ul {
   list-style: none;
   padding: 0;
-  width: 75%;
+  width: 80%;
   height: 68px;
   overflow: hidden;
 }

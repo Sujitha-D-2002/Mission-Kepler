@@ -12,7 +12,7 @@ export default function NavigationBar() {
         <div className="nav-bar">
             <div className="search-container">
                 {/* <i class="fa fa-search icon"></i> */}
-                <img src="https://www.flaticon.com/download/icon/3031293?icon_id=3031293&author=741&team=741&keyword=Search&pack=3031247&style=Basic+Outline&style_id=1215&format=png&color=%23000000&colored=1&size=512&selection=1&type=standard&search=search" className='icon'></img>
+                <img src="https://www.flaticon.com/download/icon/54481?icon_id=54481&author=42&team=42&keyword=Search+interface+symbol&pack=111182&style=Lineal&style_id=1182&format=png&color=%23000000&colored=1&size=512&selection=1&type=standard" className='icon'></img>
                 <input type="text" placeholder="Search users" className="search-holder" />
             </div>
             <div className="tabs">
